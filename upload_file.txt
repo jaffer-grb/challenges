@@ -1,0 +1,32 @@
+how to push files from ec2 to git-hub repository
+1.. ec2 instance 
+2..
+install git
+yum install git -y
+3..
+git init in a required directory
+4..
+git config --global user.name 
+git config --global user.email
+5..
+create ssh key 
+ssh-keygen
+6..
+edit that key from a path
+cat /.ssh/id_rsa.pub
+7..
+add that key to central repository
+8..
+git clone ssh url
+9..
+copy our files from git to cloned repository
+10..
+git add .
+11..
+git commit -m
+12..
+git status
+13..
+git push 
+14..
+check your repository
